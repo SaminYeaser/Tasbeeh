@@ -43,7 +43,7 @@ class makeItRainState extends State<home> {
                 child: new Center(
                   child: new Text('$_tashbehCount',
                   style: new TextStyle(
-                    color: Colors.greenAccent,
+                    color: _tashbehCount < 50 ? Colors.greenAccent: Colors.red,
                     fontSize: 40.3,
                     fontWeight: FontWeight.w500
                   ),),
